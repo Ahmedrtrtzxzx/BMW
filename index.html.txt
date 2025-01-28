@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="منصة استثمار آمنة وسهلة الاستخدام تساعدك على تحقيق أهدافك المالية.">
+    <title>منصة الاستثمار الذكية</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- رأس الصفحة -->
+    <header>
+        <div class="container">
+            <h1>منصة الاستثمار الذكية</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#services">الخدمات</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                    <li><a href="#signup" class="button">ابدأ الآن</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- قسم البداية -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>ابدأ استثمارك بثقة</h2>
+            <p>نقدم حلولاً استثمارية تناسب جميع احتياجاتك المالية. اكتشف كيف يمكنك تحقيق أهدافك اليوم.</p>
+            <a href="#signup" class="button">انضم إلينا الآن</a>
+        </div>
+    </section>
+
+    <!-- قسم من نحن -->
+    <section id="about">
+        <div class="container">
+            <h2>من نحن</h2>
+            <p>نحن فريق من الخبراء الماليين والمتخصصين في التكنولوجيا نعمل على تقديم خدمات استثمار مبتكرة وآمنة. هدفنا هو تمكين الأفراد من تحقيق الاستقلال المالي.</p>
+        </div>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section id="services">
+        <div class="container">
+            <h2>خدماتنا</h2>
+            <div class="service">
+                <h3>إدارة المحافظ الاستثمارية</h3>
+                <p>قم بإنشاء محفظة استثمارية مخصصة بناءً على أهدافك ومخاطر الاستثمار التي تناسبك.</p>
+            </div>
+            <div class="service">
+                <h3>الاستثمار في الأسهم</h3>
+                <p>استثمر في مجموعة متنوعة من الأسهم المحلية والعالمية مع تقارير تحليلية محدثة.</p>
+            </div>
+            <div class="service">
+                <h3>خطط التقاعد</h3>
+                <p>خطط لتقاعدك اليوم من خلال برامج ادخار طويلة الأجل تضمن لك راحة مالية مستدامة.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التسجيل -->
+    <section id="signup">
+        <div class="container">
+            <h2>ابدأ رحلتك الاستثمارية</h2>
+            <form action="submit.php" method="post">
+                <label for="name">الاسم الكامل:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">رقم الهاتف:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="investment">مبلغ الاستثمار:</label>
+                <input type="number" id="investment" name="investment" required>
+                
+                <button type="submit" class="button">ابدأ الآن</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- قسم تواصل معنا -->
+    <section id="contact">
+        <div class="container">
+            <h2>تواصل معنا</h2>
+            <p>هل لديك أي استفسارات؟ فريقنا مستعد لمساعدتك.</p>
+            <ul>
+                <li>البريد الإلكتروني: support@investment.com</li>
+                <li>الهاتف: 123-456-7890</li>
+                <li>العنوان: الرياض، المملكة العربية السعودية</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 منصة الاستثمار الذكية. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+</body>
+</html>
